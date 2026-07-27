@@ -1,9 +1,29 @@
 aid: gorgie
 name: GORGIE
-description: 'GORGIE is a company surfaced as a portfolio company of ggv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  GORGIE is a direct-to-consumer beverage brand making a sparkling, zero-sugar
+  energy drink with functional benefits from green tea, natural flavors, Biotin,
+  B Vitamins, and L-Theanine — only 5 calories, no preservatives. Built by a
+  women-led team on a mission to make wellness fun, GORGIE sells its variety of
+  flavors through a Shopify-powered online store at getgorgie.com and on retail
+  shelves including Target, supported by a store locator, wholesale program, and
+  an Instagram/TikTok community. It was surfaced as a portfolio company of
+  ggv-capital and added to the API Evangelist network. As a consumer packaged
+  goods brand it exposes an ecommerce storefront and customer-account surface
+  rather than a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/gorgie/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://getgorgie.com/cdn/shop/files/Social_Sharing.png?v=1672370132
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Consumer Packaged Goods
+- Energy Drink
+- Beverage
+- Wellness
+- Ecommerce
+- Direct to Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://getgorgie.com/
+- type: Support
+  url: https://getgorgie.com/pages/faqs
+- type: Pricing
+  url: https://getgorgie.com/collections/shop-all
+- type: SignUp
+  url: https://getgorgie.com/account/register
+- type: Login
+  url: https://getgorgie.com/account/login
+- type: PrivacyPolicy
+  url: https://getgorgie.com/policies/privacy-policy
+- type: TermsOfService
+  url: https://getgorgie.com/policies/terms-of-service
+- type: Instagram
+  url: https://www.instagram.com/getgorgie/
+- type: DomainSecurity
+  url: security/gorgie-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
